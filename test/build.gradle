@@ -2,9 +2,10 @@ apply plugin: 'com.android.application'
 
 
 android {
-    compileSdkVersion  21
+    compileSdkVersion  36
 
     defaultConfig.with {
+        namespace "io.antmedia.rtmp_client.test"
         applicationId  "io.antmedia.rtmp_client.test"
         minSdkVersion  21
         targetSdkVersion  21
