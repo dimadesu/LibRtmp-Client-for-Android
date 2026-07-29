@@ -3,6 +3,7 @@ apply plugin: "com.android.library"
 
 android {
     namespace "io.antmedia.rtmp_client"
+    ndkVersion "28.2.13676358" // r28c: builds 16 KB-aligned .so by default (Play Console 16 KB requirement)
     compileSdkVersion  36 // sdk level 21 lets ndk generate resources for archs such as arm64.
     defaultConfig {
         // applicationId "io.antmedia.rtmpclient"
