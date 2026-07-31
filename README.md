@@ -1,6 +1,6 @@
 ## CHANGE-FOR-FORK
 
-[![](https://jitpack.io/v/mcxinyu/LibRtmp-Client-for-Android.svg)](https://jitpack.io/#mcxinyu/LibRtmp-Client-for-Android)
+[![](https://jitpack.io/v/dimadesu/LibRtmp-Client-for-Android.svg)](https://jitpack.io/#dimadesu/LibRtmp-Client-for-Android)
 
 
 The configuration of target_link_libraries in [CMakeLists.txt](rtmp-client/CMakeLists.txt) has been modified to support the requirements of [Support 16 KB page sizes](https://developer.android.com/guide/practices/page-sizes).
@@ -15,7 +15,7 @@ androidx.media3 [RTMP DataSource module](https://github.com/androidx/media/tree/
   implementation("androidx.media3:media3-datasource-rtmp:1.6.1") {
     exclude("io.antmedia", "rtmp-client")
   }
-  implementation("com.github.mcxinyu:LibRtmp-Client-for-Android:v3.2.0.m2")
+  implementation("com.github.dimadesu:LibRtmp-Client-for-Android:v3.2.0-16kb-ndk-r28c")
 ```
 
 ---
