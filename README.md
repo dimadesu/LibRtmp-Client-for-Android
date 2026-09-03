@@ -15,7 +15,7 @@ androidx.media3 [RTMP DataSource module](https://github.com/androidx/media/tree/
   implementation("androidx.media3:media3-datasource-rtmp:1.6.1") {
     exclude("io.antmedia", "rtmp-client")
   }
-  implementation("com.github.dimadesu:LibRtmp-Client-for-Android:v3.2.0-16kb-ndk-r28c")
+  implementation("com.github.dimadesu:LibRtmp-Client-for-Android:v3.2.0-16kb-ndk-r28c-v2")
 ```
 
 ---
